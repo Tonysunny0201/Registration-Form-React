@@ -30,7 +30,7 @@ function App() {
       !!value.match(/^[a-zA-Z\s'-]+$/) ? setIsNameInvalid(false):setIsNameInvalid(true);
     }else if(name=="phone"){
       setPhone(value);
-      !!value.match(/^(\+91[\-\s]?)?[0]?(91)?[789]\d{9}$/) ? setIsPhonevalid(false):setIsPhoneInvalid(true);
+      !!value.match(/^(\+91[\-\s]?)?[0]?(91)?[789]\d{9}$/) ? setIsPhoneInvalid(false):setIsPhoneInvalid(true);
     }else if(name=="email"){
       setEmail(value);
       !!value.match(/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/) ? setIsEmailInvalid(false):setIsEmailInvalid(true);
